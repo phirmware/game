@@ -1,0 +1,66 @@
+body{
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+    background: rgb(20, 20, 20);
+    color: rgb(229, 235, 235);
+}
+.squares{
+    width: 30%;
+    border: solid 3.66px rgb(20, 20, 20);
+    padding-bottom: 30%;
+    float: left;
+    transition: 0.5s;
+    border-radius: 8px;
+    opacity: 0.4;
+}
+.squares:hover{
+    opacity: 0.8;
+}
+.squares:active{
+    opacity: 1;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+.good{
+    background: green;
+}
+.header{
+    width: 100%;
+    background: rgb(136, 100, 47);
+    height: 100px;
+    text-align: center;
+    color: rgb(231, 224, 224);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.result{
+    background: whitesmoke;
+    height: 10px
+}
+.span{
+    background: whitesmoke;
+    height: 40px;
+    margin-top: 0px;
+    top: 0px;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1{
+    margin-top: 0px;
+}
+.btn{
+    margin-left: 200px;
+    font-weight: bold;
+    border: none;
+    background: whitesmoke;
+    color: blue;
+    font-size: 20px;
+    float: left;
+}
