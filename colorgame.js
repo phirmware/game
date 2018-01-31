@@ -79,3 +79,9 @@ function color(color) {
         square[i].style.background = color;
     }
 }
+
+//reload game
+var reloadbtn = document.querySelector(".reload");
+reloadbtn.addEventListener('click',function(){
+    document.location.reload();
+})

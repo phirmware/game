@@ -12,10 +12,10 @@ body{
     float: left;
     transition: 0.5s;
     border-radius: 8px;
-    opacity: 0.4;
+    opacity: 0.7;
 }
 .squares:hover{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .squares:active{
     opacity: 1;
@@ -63,4 +63,21 @@ h1{
     color: blue;
     font-size: 20px;
     float: left;
+}
+.reload{
+    float: left;
+    padding: 10px;
+    font-weight: bolder;
+    color: snow;
+    background: black;
+    border: black solid 2px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+}
+.reload:active{
+    background: wheat;
+    color: black;
+    cursor: pointer;
 }
